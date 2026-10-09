@@ -10,7 +10,7 @@ except ImportError:
     fastf1 = None
 
 BASE_DIR = Path(__file__).parent
-SPRINT_CSV = BASE_DIR / "singapore_sprint_top5.csv"
+ SPRINT_CSV = BASE_DIR / "sprint_predictions.csv"
 RACE_CSV = BASE_DIR / "singapore_grand_prix_top5.csv"
 MODEL_FILE = BASE_DIR / "f1_best_model.pkl"
 FEATURE_FILE = BASE_DIR / "f1_model_features.json"
